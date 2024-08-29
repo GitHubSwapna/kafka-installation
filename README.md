@@ -4,7 +4,6 @@
      docker compose up -d
      docker container list
 4.It will take few minute to up the server inside docker desktop.
-5.Now up the docker explorer 
-
+5.Now up the docker explorer
 using  bootstrap-servers: "broker:9292"  producer able to connect the kafka server.
  here broker is the container name of the kafka server.
