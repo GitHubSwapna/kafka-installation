@@ -26,3 +26,10 @@ services:
       - 9191:9191
     depends_on:
       - kafka
+  consumer:
+    image: kafka-consumer:latest
+    container_name: consumer-container
+    ports:
+      - 9696:9696
+    depends_on:
+      - kafka
